@@ -1,0 +1,21 @@
+Primeiramente, vá na pasta API 
+abra o arquivo .env como bloco de notas
+coloque 4 tokens de uma conta ou de contas distintas nos TOKEN1, 2, 3 e 4, e coloque o token de um BOT com os intents ativados no BOT_TOKEN
+inicie a API abrindo o cmd na pasta usando "node ."
+
+Com a API ligada, voce precisa dos IDs de um servidor,
+abra a pasta "DScraper All"
+coloque o token de uma conta que tenha o servidor nessa pasta 
+inicie com "npm run dev"
+e cole o id do servidor no cmd (se não for ctrl v, tente usando o botão direito do mouse)
+
+Depois, vá na pasta saves do Scraper All, abra a pasta equivalente ao numero de membros do servidor,
+copie os IDs
+vá na pasta DScraper
+cole os ids em ids.txt
+depois vá, dentro de DScraper, na pasta src
+abra config.json como bloco de notas
+cole sua webhook lá, como está o exemplo 
+volte à pasta inicial
+e inicie com "npm run dev"
+só aguardar
